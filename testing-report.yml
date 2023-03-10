@@ -1,0 +1,37 @@
+---
+- summary: |
+    Проверка мобильной версии сайта на iPhone 6/7/8 Plus.
+  status: fail
+
+- summary: |
+    Проверка мобильной версии сайта на Samsung Galaxy S8+.
+  status: fail
+  
+- summary: |
+    Проверка работоспособности сайта в браузере Yandex.
+  status: pass
+
+- summary: |
+    Проверка работоспособности сайта в браузере Google Chrome.
+  status: pass
+  
+- summary: |
+    На странице авторизации при вводе неверного email пользователь должен получить сообщение об ошибке.
+  status: pass
+
+- summary: |
+    Проверка получения email-уведомления об успешной регистрации нового пользователя.
+  status: fail
+  
+- summary: |
+    Проверка возможности измения фотографии профиля.
+  status: fail
+  
+- summary: |
+    Проверка наличия ссылки на специальный Telegram-канал.
+  status: fail
+  
+- summary: |
+    Проверка работоспособности кнопки Slack#coddebattle.
+  status: fail
+ 
