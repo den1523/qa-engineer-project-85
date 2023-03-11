@@ -158,3 +158,20 @@
     - Нажимаем на кнопку "Create Battle"
   expected-result: |
     Пользователь при создании игры может выбрать язык программирования.
+    
+- summary: |
+    Проверка создания игры в браузере Safari.
+  requirement: |
+    Пользователь должен иметь возможность создать игру через браузер Safari.
+  prerequisites: |
+    Открыта главная страница с авторизованным пользователем
+  test-data: |
+   MacOs Mojave 10.14.6
+   Safari 14.1.2
+  steps:
+    - Нажимаем на кнопку "CREATE A GAME"
+    - В Game Type выбираем "With a bot"
+    - В Tags выбираем "math"
+    - Нажимаем на кнопку "Create Battle"
+  expected-result: |
+    Пользователь создал игру через браузе Safari.
