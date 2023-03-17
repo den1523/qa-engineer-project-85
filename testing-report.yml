@@ -50,7 +50,11 @@
 - summary: |
     Проверка победы в игре.
   status: pass
-  
+ 
+- summary: |
+    Проверка выполнения задания в игре.
+  status: pass
+ 
 - summary: |
     Проверка проигрыша в игре.
   status: pass
